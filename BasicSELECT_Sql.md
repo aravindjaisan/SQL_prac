@@ -76,4 +76,15 @@ SELECT DISTINCT CITY FROM STATION
 WHERE lower(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u')
 AND lower(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u'); 
 ```
-#**[Weather Observation Station-12](https://www.hackerrank.com/challenges/weather-observation-station-12)**
+#**[More than 75 marks](https://www.hackerrank.com/challenges/more-than-75-marks)**
+```sql
+SELECT NAME FROM STUDENTS WHERE MARKS > 75 ORDER BY RIGHT(NAME,3),ID;
+```
+#**[Name of employees](https://www.hackerrank.com/challenges/name-of-employees)**
+```sql
+SELECT NAME FROM EMPLOYEE ORDER BY NAME;
+```
+#**[Salary of employees](https://www.hackerrank.com/challenges/salary-of-employees)**
+```sql
+SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS < 10 ORDER BY EMPLOYEE_ID;
+```
