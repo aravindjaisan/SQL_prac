@@ -76,3 +76,4 @@ SELECT DISTINCT CITY FROM STATION
 WHERE lower(SUBSTR(CITY,1,1)) NOT IN ('a','e','i','o','u')
 AND lower(SUBSTR(CITY,LENGTH(CITY),1)) NOT IN ('a','e','i','o','u'); 
 ```
+#**[Weather Observation Station-12](https://www.hackerrank.com/challenges/weather-observation-station-12)**
